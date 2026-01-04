@@ -24,6 +24,12 @@ const products: Product[] = [
         description: "Comfortable sneakers in timeless design.",
         price: 69.99,
     },
+    {
+        id: "p4",
+        name: "Classic Sneakers",
+        description: "Comfortable sneakers in timeless design.",
+        price: 699.99,
+    },
 ];
 
 export default products;

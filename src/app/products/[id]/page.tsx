@@ -8,8 +8,10 @@ type Params = {
     };
 };
 
-export default function ProductDetailsPage({ params }: Params) {
-    const product = products.find((p) => p.id === params.id);
+export default async function ProductDetailsPage({ params }: Params) {
+    const { id } = await params;
+    console.log('params', id);
+    const product = products.find((p) => p.id === id);
 
     if (!product) {
         return notFound();
