@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
-import ProductCard from "../../../components/ProductCard";
-import products from "../../../data/products";
+import ProductCard from "../../../../components/ProductCard";
+import products from "../../../../data/products";
 
 type Params = {
     params: {
