@@ -1,5 +1,5 @@
 name: first Workflow
-on: workflow_dispach
+on: workflow_disptach
 jobs: 
   first-job:
     runs-on: ubantu-latest
