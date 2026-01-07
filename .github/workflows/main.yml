@@ -1,0 +1,12 @@
+name: first Workflow
+on: workflow_dispach
+jobs: 
+  first-job:
+    runs-on: ubantu-latest
+    steps:
+      - name: Greetings
+        run: echo "Hello github world!"
+      - name: GoodByeForNow
+        run: echo "We will meet soon - Good by till then!!!"
+      
+    
